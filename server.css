@@ -17,9 +17,11 @@
 	color:white;
 	font-weight:bold;
 }
-.shigong {
-	color:white;
-	position:fixed;
-	width:100%;
-	text-align:center;
+#tit {
+    font-size: 60px;
+	
+}
+.title {
+    margin-top: 20%;
+    width: 100%;
 }
