@@ -9,9 +9,10 @@
 	text-decoration:none;
 }
 .lianxi1 {
-    position: fixed;
-    bottom: 2px;
-    width:100%;
+	font-family: Unifont;
+    	position: fixed;
+    	bottom: 2px;
+    	width:100%;
 	text-align:center;
 	font-size:15px;
 	color:white;
@@ -19,7 +20,7 @@
 }
 #tit {
     font-size: 60px;
-	
+	font-family: Unifont;
 }
 .title {
     margin-top: 20%;
