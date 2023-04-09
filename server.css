@@ -1,3 +1,17 @@
+@keyframes titspin {
+	0% {
+		transform: rotate(0deg);
+		transform: scale(1);
+	}
+	50% {
+	    transform: rotate(180deg);
+		transform: scale(1.2);
+	}
+	100% {
+		transform: rotate(360deg);
+		transform: scale(1);
+	}
+}
 .lianxi {
 	font-size:15px;
 	bottom:-15px;
@@ -10,19 +24,22 @@
 }
 .lianxi1 {
 	font-family: Unifont;
-    	position: fixed;
-    	bottom: 2px;
-    	width:100%;
+    position: fixed;
+    bottom: 2px;
+    width:100%;
 	text-align:center;
 	font-size:15px;
 	color:white;
 	font-weight:bold;
 }
-#tit {
-    font-size: 60px;
-	font-family: Unifont;
-}
 .title {
-    margin-top: 20%;
-    width: 100%;
+	font-size: 50px;
+	font-family: Unifont;
+	color: lightcyan;
+	animation-name: titspin;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	margin-top:10%;
+	overflow: hidden;
 }
